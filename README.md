@@ -29,3 +29,16 @@ git log
 ```
 git commit -m "message"
 ```
+6. To send version/changes to github
+```
+git branch   
+git push origin main
+```
+7. To check remote url
+```
+git remote -v
+```
+8. To check branch
+```
+git branch
+```

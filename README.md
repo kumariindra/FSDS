@@ -32,12 +32,10 @@ git add <file_name>
 ```
 .gitignore file
 ```
-
 3. To check the git status
 ```
 git status
 ```
-
 4. To check all version maintained by git
 ```
 git log
@@ -70,6 +68,8 @@ git branch
 4. BUILD DOCKER IMAGE
 
 ```
+docker --version
+docker status
 docker build -t <image_name>:<indra> .
 ```
 > Note: Image name for docker must be lowercase

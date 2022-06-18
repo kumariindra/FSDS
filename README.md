@@ -61,7 +61,7 @@ git branch
 3. To setup CI/CD pipeline in Heroku we need 3 information
 
 1. HEROKU_EMAIL = kumariindra7@gmail.com
-2. HEROKU_API_KEY = dfa27678-4ba9-47b9-a4e0-0037be1b1341
+2. HEROKU_API_KEY = <>
 3. HEROKU_APP_NAME = learning-classification
 
 

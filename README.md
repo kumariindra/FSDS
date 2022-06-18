@@ -1,4 +1,4 @@
-# FSDS Project All Commands
+# FSDS Project All Commands are as follows:
 # 1. For Environment Variable
 
 1. Creating conda environment
@@ -18,7 +18,7 @@ conda activate venv
 pip install -r requirements.txt
 ```
 
-# 2. For git 
+# 2. For git all commands are as follows:
 
 1. To Add files to git
 ```

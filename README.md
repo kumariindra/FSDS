@@ -18,7 +18,6 @@ conda activate venv
 pip install -r requirements.txt
 ```
 
-
 # 2. For git 
 
 1. To Add files to git
@@ -48,8 +47,7 @@ git log
 git commit -m "message"
 ```
 6. To send version/changes to github
-```
-git branch   
+``` 
 git push origin main
 ```
 7. To check remote url
@@ -59,4 +57,37 @@ git remote -v
 8. To check branch
 ```
 git branch
+```
+
+
+3. To setup CI/CD pipeline in Heroku we need 3 information
+
+1. HEROKU_EMAIL = kumariindra7@gmail.com
+2. HEROKU_API_KEY = dfa27678-4ba9-47b9-a4e0-0037be1b1341
+3. HEROKU_APP_NAME = learning-classification
+
+
+4. BUILD DOCKER IMAGE
+
+```
+docker build -t <image_name>:<indra> .
+```
+> Note: Image name for docker must be lowercase
+
+1. To list docker image
+```
+docker image
+```
+
+2. Run docker image
+```
+docker run -p 5000:5000 -e PORT=5000 <imageID>
+```
+3. To check running container in docker
+```
+docker ps
+```
+4. To stop docker container
+```
+docker stop <container_id>
 ```

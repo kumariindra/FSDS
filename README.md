@@ -1,4 +1,22 @@
 # FSDS Project All Commands
+# 1. For Environment Variable
+
+1. Creating conda environment
+```
+conda create -p venv python==3.7 -y
+```
+OR
+```
+conda activate venv/
+```
+OR
+```
+conda activate venv
+
+2. For requirements.txt
+``` 
+pip install -r requirements.txt
+```
 
 
 # 2. For git 

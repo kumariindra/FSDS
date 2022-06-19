@@ -14,7 +14,7 @@ def index():
     #     logging.info(housing.error_message)
     #     logging.info("We are testing logging module")
     #return "CI CD pipeline has been established."
-    return "Machine Learning Project Done."
+    return "FSDS:ML Project has succefully done."
 
 
 if __name__=="__main__":

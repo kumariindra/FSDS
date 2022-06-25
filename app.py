@@ -13,8 +13,8 @@ def index():
     #     housing = HousingException(e,sys)
     #     logging.info(housing.error_message)
     #     logging.info("We are testing logging module")
-    #return "CI CD pipeline has been established."
-    return "FSDS:ML Project has succefully done."
+    return "CI CD pipeline has been established."
+   
 
 
 if __name__=="__main__":

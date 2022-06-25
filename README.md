@@ -91,3 +91,7 @@ docker ps
 ```
 docker stop <container_id>
 ```
+
+For Configuration :
+
+1. pip install ipykernel

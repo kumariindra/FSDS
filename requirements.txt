@@ -3,4 +3,6 @@ Flask
 gunicorn
 sklearn
 pandas
-#-e .
+PyYAML
+evidently
+-e .

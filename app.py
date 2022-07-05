@@ -1,4 +1,3 @@
-
 from flask import Flask
 import sys
 from housing.logger import logging
